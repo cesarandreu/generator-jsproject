@@ -29,7 +29,8 @@ describe('jsproject generator', function () {
       '.jshintrc',
       '.editorconfig',
       '.gitignore',
-      '.gitattributes'
+      '.gitattributes',
+      '.travis.yml'
     ];
 
     helpers.mockPrompt(this.app, {
@@ -56,7 +57,8 @@ describe('jsproject generator', function () {
       'jsproject/.jshintrc',
       'jsproject/.editorconfig',
       'jsproject/.gitignore',
-      'jsproject/.gitattributes'
+      'jsproject/.gitattributes',
+      'jsproject/.travis.yml'
     ];
 
     helpers.mockPrompt(this.app, {

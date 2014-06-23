@@ -50,6 +50,7 @@ to your `.bashrc`, `.zshrc`, `.profile` or another file that is run on shell ini
 * .gitattributes
 * .gitignore
 * .jshintrc
+* .travis.yml
 
 ## License
 

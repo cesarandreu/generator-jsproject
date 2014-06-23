@@ -146,7 +146,8 @@ var JsprojectGenerator = yeoman.generators.Base.extend({
       gitignore = '.gitignore',
       gitattributes = '.gitattributes',
       editorconfig = '.editorconfig',
-      jsHint = '.jshintrc';
+      jsHint = '.jshintrc',
+      travis = '.travis.yml';
 
     if (this.createFolder) {
       this.mkdir(this.slugName);
@@ -158,6 +159,7 @@ var JsprojectGenerator = yeoman.generators.Base.extend({
       gitattributes = path.join(this.slugName, gitattributes);
       editorconfig = path.join(this.slugName, editorconfig);
       jsHint = path.join(this.slugName, jsHint);
+      travis = path.join(this.slugName, travis);
     }
 
     this.template('_package.json', packageJson);
@@ -168,7 +170,7 @@ var JsprojectGenerator = yeoman.generators.Base.extend({
     this.copy('gitignore', gitignore);
     this.copy('editorconfig', editorconfig);
     this.copy('jshintrc', jsHint);
-
+    this.copy('travis.yml', travis);
   }
 
 });

@@ -1,6 +1,6 @@
 {
   "name": "generator-jsproject",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Yeoman generator for javascript projects",
   "license": "MIT",
   "main": "app/index.js",

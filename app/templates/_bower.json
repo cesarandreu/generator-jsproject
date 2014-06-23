@@ -1,0 +1,22 @@
+{
+  "name": "<%= slugName %>",
+  "description": "<%= projectDescription %>",
+  "version": "0.0.0",
+  "homepage": "https://github.com/<%= githubUsername %>/<%= slugName %>",
+  "authors": [
+    "<%= realname %> <<%= email%>>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= githubUsername %>/<%= slugName %>.git"
+  },
+  "keywords": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "main": "",
+  "dependencies": {}
+}

@@ -51,7 +51,3 @@ to your `.bashrc`, `.zshrc`, `.profile` or another file that is run on shell ini
 * .gitignore
 * .jshintrc
 * .travis.yml
-
-## License
-
-MIT

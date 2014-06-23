@@ -1,6 +1,6 @@
 # generator-jsproject [![Build Status](https://secure.travis-ci.org/cesarandreu/generator-jsproject.png?branch=master)](https://travis-ci.org/cesarandreu/generator-jsproject)
 
-> Yeoman generator for javascript projects, because having to copy over the same files every time is a pain.
+> Yeoman generator for javascript projects, because having to copy over files every time is a pain.
 
 ## What does it do?
 
@@ -38,14 +38,14 @@ to your `.bashrc`, `.zshrc`, `.profile` or another file that is run on shell ini
 ## Environment Variables
 
 * __GITHUB_USERNAME__ - value that will be used as the default GitHub username, defaults to `cesarandreu`
-* __GITHUB_TOKEN__ - your github token, must have `public_repo` or `repo` permissions to initialize your GitHub repo for you
+* __GITHUB_TOKEN__ - your github token, must have `public_repo` or `repo` permissions to initialize your GitHub repo
 
 ## Generated files
 
 * bower.json
+* package.json
 * LICENSE (MIT)
 * README.md
-* package.json
 * .editorconfig
 * .gitattributes
 * .gitignore
